@@ -1,0 +1,18 @@
+.container{
+  height: 300px;
+    width: 100%;
+}
+
+#display{
+    
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    display: inline-block;
+    }
+
+.buttons{
+    text-align: center;
+}
+
+ 
