@@ -77,7 +77,7 @@ function stopWatch(){
 	}
 
 	
-    //Display updated time values to user
+    
     document.getElementById("display").innerHTML = displayHours + ":" + displayMinutes + ":" + displaySeconds;
 
 }
@@ -88,7 +88,7 @@ function startStop(){
 
     if(status === "stopped"){
 
-        //Start the stopwatch (by calling the setInterval() function)
+       
         interval = window.setInterval(stopWatch, 1000);
         document.getElementById("startStop").innerHTML = "Stop";
         status = "started";
